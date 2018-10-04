@@ -1,0 +1,68 @@
+/* CSS Reset */
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	}
+/* end CSS Reset */
+
+body {
+    padding: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    background-color: #212022;
+    color: #fff;
+    text-align: center;
+}
+
+div#container {
+    display: table;
+    margin: auto;
+    text-align: center;   
+    border-spacing: 8px; 
+}
+
+div#container div {
+    display: table-row;
+}
+
+p {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;    
+    background-color: #1d2f92;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+    transition: transform 1s;
+}
+
+.rotate {
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+button {
+	padding: 5px 20px;
+	background-color: #1d2f92;
+	color: #fff;
+	transition: background-color .3s;
+}
+
+button:hover {
+	background-color: #2d639a;
+}
+
+button:active {
+	background-color: #20476f;
+}

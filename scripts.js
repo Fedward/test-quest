@@ -1,6 +1,6 @@
-"use strict";
-
-document.addEventListener("DOMContentLoaded", function() { 
+document.addEventListener("DOMContentLoaded", function() {
+	"use strict";
+	
 	let startButton = document.getElementById("startButton"),
 		cells = document.querySelectorAll("#container p");
 	
